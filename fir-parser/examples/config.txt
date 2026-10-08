@@ -1,0 +1,19 @@
+FIR CONFIG BUILD:
+
+HOSTNAME FIR
+CREATE USER JOHN
+SET SHELL /bin/bash
+GIVE USER JOHN PERMISSIONS:
+     WHEEL
+     NETWORK
+
+PACKAGES:
+     GLOBAL:
+        GCC
+        MAKE
+        GIT
+        PIPEWIRE
+     USER EMIL:
+        FIREFOX
+        VIM
+        TREE
